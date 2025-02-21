@@ -14,7 +14,7 @@ public class TimeMappingManagerInvocableTest {
         TimeMappingManagerInvocable.InvocableRequest request = new TimeMappingManagerInvocable.InvocableRequest();
         request.sourceRecordId = sourceTask.Id;
         request.targetRecordId = targetTask.Id;
-        request.sourceField1ApiName = 'ActivityDate';
+        request.sourceField1ApiName = 'ActivityDat';
         request.targetField1ApiName = 'ActivityDate';
 
         List<TimeMappingManagerInvocable.InvocableRequest> requests = new List<TimeMappingManagerInvocable.InvocableRequest>();
